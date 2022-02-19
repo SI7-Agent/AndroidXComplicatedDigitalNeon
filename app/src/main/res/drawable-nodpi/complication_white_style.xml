@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<drawable
+    class="androidx.wear.watchface.complications.rendering.ComplicationDrawable"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ambient
+        app:borderColor="@color/white_50"
+        app:iconColor="@color/white"
+        app:textColor="@color/white"
+        app:titleColor="@color/white_70"
+        app:rangedValuePrimaryColor="@color/white"
+        app:rangedValueSecondaryColor="@color/transparent" />
+</drawable>
