@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="am3_hour_style">43</dimen>
+    <dimen name="am3_minute_style">30</dimen>
+    <dimen name="am3_second_style">15</dimen>
+    <dimen name="am3_complication_style">12</dimen>
+    <dimen name="aurach_hour_style">60</dimen>
+    <dimen name="aurach_minute_style">35</dimen>
+    <dimen name="aurach_second_style">18</dimen>
+    <dimen name="aurach_complication_style">18</dimen>
+    <dimen name="basis33_hour_style">65</dimen>
+    <dimen name="basis33_minute_style">45</dimen>
+    <dimen name="basis33_second_style">22</dimen>
+    <dimen name="basis33_complication_style">20</dimen>
+    <dimen name="minaeff_hour_style">60</dimen>
+    <dimen name="minaeff_minute_style">35</dimen>
+    <dimen name="minaeff_second_style">20</dimen>
+    <dimen name="minaeff_complication_style">16</dimen>
+</resources>
