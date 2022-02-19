@@ -10,4 +10,17 @@
     <string name="aurach_style">Aurach Font Style</string>
     <string name="basis33_style">Basis33 Font Style</string>
     <string name="minaeff_style">Minaeff Font Style</string>
+    <string name="colors_style_setting">Color Settings</string>
+    <string name="colors_style_setting_description">Colorize WatchFace</string>
+    <string name="watchface_pips_setting">Hour Pips Settings</string>
+    <string name="watchface_pips_setting_description">Draw or not hours pips</string>
+    <string name="font_style_setting">Font Style Settings</string>
+    <string name="font_style_setting_description">Change Font of WatchFace Texts</string>
+    <string name="watch_description">Hour Pips Part</string>
+    <string name="second_mover_description">Image for representing a second hand</string>
+    <string name="default_month_label">January</string>
+    <string name="default_week_day_label">MON</string>
+    <string name="default_hour_label">00</string>
+    <string name="default_minute_label">00</string>
+    <string name="default_second_label">00</string>
 </resources>
