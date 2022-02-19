@@ -16,4 +16,19 @@
     <dimen name="minaeff_minute_style">35</dimen>
     <dimen name="minaeff_second_style">20</dimen>
     <dimen name="minaeff_complication_style">16</dimen>
+    <dimen name="neon_bg_second_mover_icon_width">12dp</dimen>
+    <dimen name="neon_bg_second_mover_icon_height">12dp</dimen>
+    <dimen name="date_layout_width">138dp</dimen>
+    <dimen name="date_layout_height">20dp</dimen>
+    <dimen name="date_layout_marginTop">43dp</dimen>
+    <dimen name="date_layout_marginBottom">-20dp</dimen>
+    <dimen name="date_layout_month_column_width">85dp</dimen>
+    <dimen name="date_layout_week_day_column_width">53dp</dimen>
+    <dimen name="time_layout_width">138dp</dimen>
+    <dimen name="time_layout_height">90dp</dimen>
+    <dimen name="time_layout_column_width">65dp</dimen>
+    <dimen name="time_layout_hour_group_marginEnd">0dp</dimen>
+    <dimen name="time_layout_minute_height">60dp</dimen>
+    <dimen name="time_layout_second_height">30dp</dimen>
+    <dimen name="time_layout_second_marginTop">-4dp</dimen>
 </resources>
