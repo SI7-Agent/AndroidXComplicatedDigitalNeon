@@ -117,16 +117,16 @@ enum class ColorStyleData(
          * options for the user to select a style.
          */
         fun toOptionList(context: Context): List<ListUserStyleSetting.ListOption> {
-            val colorStyleIdAndResourceIdsList = enumValues<ColorStyleData>()
+            val colorStyleDataList = enumValues<ColorStyleData>()
 
-            return colorStyleIdAndResourceIdsList.map { colorStyleIdAndResourceIds ->
+            return colorStyleDataList.map { colorStyleData ->
                 ListUserStyleSetting.ListOption(
-                    UserStyleSetting.Option.Id(colorStyleIdAndResourceIds.id),
+                    UserStyleSetting.Option.Id(colorStyleData.id),
                     context.resources,
-                    colorStyleIdAndResourceIds.nameResourceId,
+                    colorStyleData.nameResourceId,
                     Icon.createWithResource(
                         context,
-                        colorStyleIdAndResourceIds.iconResourceId
+                        colorStyleData.iconResourceId
                     )
                 )
             }
