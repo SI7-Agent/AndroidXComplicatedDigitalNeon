@@ -1,0 +1,72 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-kapt'
+}
+
+android {
+    compileSdkVersion 32
+
+    defaultConfig {
+        applicationId "com.si7agent.androidx_digital_neon"
+        minSdkVersion 29
+        targetSdkVersion 32
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/atomicfu.kotlin_module'
+    }
+
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+}
+
+dependencies {
+    implementation "androidx.core:core-ktx:$rootProject.ktxVersion"
+
+    // Kotlin components
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$rootProject.coroutines"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$rootProject.coroutines"
+
+    implementation "androidx.activity:activity-ktx:$rootProject.activityKtxVersion"
+
+    // Lifecycle components
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:$rootProject.lifecycleVersion"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$rootProject.lifecycleVersion"
+
+    // Material components
+    implementation "com.google.android.material:material:$rootProject.materialVersion"
+
+    // Wear libraries
+    implementation "androidx.wear:wear:$rootProject.wearVersion"
+
+    // Watch face specific libraries
+    implementation "androidx.wear.watchface:watchface-complications-data:$rootProject.watchFaceVersion"
+    implementation "androidx.wear.watchface:watchface-complications-data-source:$rootProject.watchFaceVersion"
+
+    implementation "androidx.wear.watchface:watchface:$rootProject.watchFaceVersion"
+    implementation "androidx.wear.watchface:watchface-client:$rootProject.watchFaceVersion"
+    implementation "androidx.wear.watchface:watchface-complications-rendering:$rootProject.watchFaceVersion"
+    implementation "androidx.wear.watchface:watchface-data:$rootProject.watchFaceVersion"
+    implementation "androidx.wear.watchface:watchface-editor:$rootProject.watchFaceVersion"
+    implementation "androidx.wear.watchface:watchface-style:$rootProject.watchFaceVersion"
+}
