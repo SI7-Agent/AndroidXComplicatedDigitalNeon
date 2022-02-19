@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Digital Neon</string>
     <string name="digital_neon_watch_face_name">Digital Neon Service</string>
+    <string name="ambient_style_name">Ambient Style</string>
+    <string name="red_style_name">Red Style</string>
+    <string name="green_style_name">Green Style</string>
+    <string name="purple_style_name">Purple Style</string>
+    <string name="white_style_name">White Style</string>
 </resources>
